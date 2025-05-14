@@ -22,11 +22,11 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private void PlayWalk()
     {
-        animator.SetTrigger("goWalk");
+        animator.SetTrigger("isRun");
     }
     private void PlayJump()
     {
-        animator.SetTrigger("goJump");
+        animator.SetTrigger("isJump");
     }
     #endregion
 
